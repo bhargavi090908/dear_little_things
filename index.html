@@ -1,0 +1,80 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8"><meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Dear Little Things — Personalised digital gifts</title>
+<link rel="stylesheet" href="style.css"><script src="script.js" defer></script>
+</head>
+<body>
+<header class="topbar">
+  <a class="brand" href="#" id="homeLink"><span class="brand-icon">♡</span> Dear Little Things</a>
+  <div class="top-actions"><span class="price-note" data-en="Prices shown before you start" data-te="ముందుగానే ధరలు చూపిస్తాం">Prices shown before you start</span><button id="languageButton" class="language-button">తెలుగు / English</button></div>
+</header>
+<main>
+  <section class="hero">
+    <p class="eyebrow" data-en="A little website, a lot of feeling" data-te="చిన్న వెబ్‌సైట్, ఎన్నో భావాలు">A little website, a lot of feeling</p>
+    <h1 data-en="Turn your feelings into a <em>little surprise.</em>" data-te="మీ భావాలను ఒక <em>చిన్న సర్ప్రైజ్‌గా</em> మార్చండి.">Turn your feelings into a <em>little surprise.</em></h1>
+    <p data-en="Choose an occasion, pick a design, add your memories, and preview your gift. The price is clear before you begin." data-te="సందర్భం ఎంచుకోండి, డిజైన్ సెలెక్ట్ చేయండి, జ్ఞాపకాలు జోడించండి, గిఫ్ట్ ప్రివ్యూ చూడండి. మొదటినుంచే ధర స్పష్టంగా ఉంటుంది.">Choose an occasion, pick a design, add your memories, and preview your gift. The price is clear before you begin.</p>
+    <div class="hero-tags"><span>♡ Personalised</span><span>✿ Pastel templates</span><span>✧ Telugu + English</span></div>
+  </section>
+
+  <nav class="steps-bar" aria-label="Creation steps">
+    <div class="step active" data-step-indicator="1"><span>1</span><b data-en="Occasion" data-te="సందర్భం">Occasion</b></div><i>→</i>
+    <div class="step" data-step-indicator="2"><span>2</span><b data-en="Template" data-te="టెంప్లేట్">Template</b></div><i>→</i>
+    <div class="step" data-step-indicator="3"><span>3</span><b data-en="Your details" data-te="మీ వివరాలు">Your details</b></div><i>→</i>
+    <div class="step" data-step-indicator="4"><span>4</span><b data-en="Preview" data-te="ప్రివ్యూ">Preview</b></div>
+  </nav>
+
+  <section id="occasionSection" class="section">
+    <div class="section-heading"><div><p class="eyebrow" data-en="STEP 01" data-te="దశ 01">STEP 01</p><h2 data-en="What are we celebrating?" data-te="ఏ సందర్భం కోసం గిఫ్ట్?">What are we celebrating?</h2><p data-en="Choose the feeling you want to share." data-te="మీరు పంచుకోవాలనుకునే భావాన్ని ఎంచుకోండి.">Choose the feeling you want to share.</p></div></div>
+    <div id="occasionGrid" class="occasion-grid">
+      <button class="occasion-card" data-occasion="birthday"><span class="big-emoji">🎂</span><strong data-en="Birthday" data-te="పుట్టినరోజు">Birthday</strong><small data-en="Make their day extra sweet" data-te="వారి రోజును మరింత అందంగా చేయండి">Make their day extra sweet</small><span class="card-arrow">Choose →</span></button>
+      <button class="occasion-card" data-occasion="anniversary"><span class="big-emoji">💐</span><strong data-en="Anniversary" data-te="వార్షికోత్సవం">Anniversary</strong><small data-en="Celebrate your journey" data-te="మీ ప్రయాణాన్ని సెలబ్రేట్ చేయండి">Celebrate your journey</small><span class="card-arrow">Choose →</span></button>
+      <button class="occasion-card" data-occasion="firstmessage"><span class="big-emoji">💌</span><strong data-en="First message" data-te="మొదటి మెసేజ్">First message</strong><small data-en="Remember how it began" data-te="మొదలైన రోజును గుర్తు చేసుకోండి">Remember how it began</small><span class="card-arrow">Choose →</span></button>
+      <button class="occasion-card" data-occasion="proposal"><span class="big-emoji">💍</span><strong data-en="Proposal" data-te="ప్రపోజల్">Proposal</strong><small data-en="Ask a meaningful question" data-te="మనసులోని మాట చెప్పండి">Ask a meaningful question</small><span class="card-arrow">Choose →</span></button>
+      <button class="occasion-card" data-occasion="apology"><span class="big-emoji">🌷</span><strong data-en="Apology" data-te="క్షమాపణ">Apology</strong><small data-en="Say it sincerely" data-te="మనస్ఫూర్తిగా చెప్పండి">Say it sincerely</small><span class="card-arrow">Choose →</span></button>
+      <button class="occasion-card" data-occasion="friendship"><span class="big-emoji">🫶</span><strong data-en="Friendship" data-te="స్నేహం">Friendship</strong><small data-en="Celebrate your person" data-te="మీ ఇష్టమైన స్నేహితుడి కోసం">Celebrate your person</small><span class="card-arrow">Choose →</span></button>
+      <button class="occasion-card" data-occasion="confession"><span class="big-emoji">💗</span><strong data-en="Love confession" data-te="ప్రేమను చెప్పడం">Love confession</strong><small data-en="Put your feelings into words" data-te="మీ భావాలను మాటల్లో చెప్పండి">Put your feelings into words</small><span class="card-arrow">Choose →</span></button>
+      <button class="occasion-card" data-occasion="thankyou"><span class="big-emoji">🎀</span><strong data-en="Thank you" data-te="ధన్యవాదాలు">Thank you</strong><small data-en="Show them they matter" data-te="వారు మీకు ముఖ్యమని చెప్పండి">Show them they matter</small><span class="card-arrow">Choose →</span></button>
+      <button class="occasion-card" data-occasion="justbecause"><span class="big-emoji">☁️</span><strong data-en="Just because" data-te="ప్రత్యేక కారణం లేకుండా">Just because</strong><small data-en="A surprise for any day" data-te="ఏ రోజుకైనా చిన్న సర్ప్రైజ్">A surprise for any day</small><span class="card-arrow">Choose →</span></button>
+    </div>
+  </section>
+
+  <section id="templateSection" class="section hidden">
+    <div class="section-heading split-heading"><div><p class="eyebrow" data-en="STEP 02" data-te="దశ 02">STEP 02</p><h2 id="templateHeading">Choose your birthday design</h2><p data-en="The full price is shown on every template." data-te="ప్రతి టెంప్లేట్‌పై పూర్తి ధర చూపిస్తాం.">The full price is shown on every template.</p></div><button class="text-button" id="backToOccasions">← <span data-en="Change occasion" data-te="సందర్భం మార్చండి">Change occasion</span></button></div>
+    <div id="templateGrid" class="template-grid"></div>
+    <div class="price-disclaimer" data-en="Prototype prices are examples for testing, not live offers. No payment is collected on this demo." data-te="ఇక్కడి ధరలు పరీక్ష కోసం ఉదాహరణలు మాత్రమే. ఈ డెమోలో చెల్లింపులు తీసుకోము.">Prototype prices are examples for testing, not live offers. No payment is collected on this demo.</div>
+  </section>
+
+  <section id="detailsSection" class="section hidden">
+    <div class="section-heading split-heading"><div><p class="eyebrow" data-en="STEP 03" data-te="దశ 03">STEP 03</p><h2 data-en="Add your little details" data-te="మీ చిన్న వివరాలు జోడించండి">Add your little details</h2><p data-en="You can check the preview before anything is final." data-te="ఏదీ ఫైనల్ చేయకముందు ప్రివ్యూ చూసుకోవచ్చు.">You can check the preview before anything is final.</p></div><button class="text-button" id="backToTemplates">← <span data-en="Change template" data-te="టెంప్లేట్ మార్చండి">Change template</span></button></div>
+    <div class="details-layout">
+      <form id="detailsForm" class="details-form">
+        <div class="selected-summary"><span id="selectedEmoji">🎂</span><div><b id="selectedTemplateName">Birthday Bloom</b><small id="selectedPrice">₹99 · Example price</small></div></div>
+        <label for="recipient" data-en="Recipient's name or nickname *" data-te="వారి పేరు లేదా ముద్దుపేరు *">Recipient's name or nickname *</label><input id="recipient" maxlength="50" required placeholder="e.g. Bubu">
+        <label for="sender" data-en="Your name (optional)" data-te="మీ పేరు (ఐచ్ఛికం)">Your name (optional)</label><input id="sender" maxlength="50" placeholder="e.g. Their favourite person">
+        <label for="headline" data-en="Gift title (optional)" data-te="గిఫ్ట్ శీర్షిక (ఐచ్ఛికం)">Gift title (optional)</label><input id="headline" maxlength="80" placeholder="A little note for you ♡">
+        <label for="message" data-en="Your personal message *" data-te="మీ వ్యక్తిగత సందేశం *">Your personal message *</label><textarea id="message" rows="5" maxlength="1200" required placeholder="Write in English or Telugu..."></textarea>
+        <label for="memory" data-en="A favourite memory (optional)" data-te="ఇష్టమైన జ్ఞాపకం (ఐచ్ఛికం)">A favourite memory (optional)</label><input id="memory" maxlength="240" placeholder="A moment you both remember">
+        <label for="colour" data-en="Colour theme" data-te="రంగుల థీమ్">Colour theme</label><select id="colour"><option value="rose">Rose pink 🌷</option><option value="lavender">Lavender 💜</option><option value="peach">Peach 🍑</option><option value="mint">Mint green 🍃</option></select>
+        <label for="photo" data-en="Photo (optional)" data-te="ఫోటో (ఐచ్ఛికం)">Photo (optional)</label><input id="photo" type="file" accept="image/*"><small data-en="Demo only: photo stays on this device, max 5 MB. Use a photo you have permission to share." data-te="డెమో మాత్రమే: ఫోటో ఈ పరికరంలోనే ఉంటుంది, గరిష్ఠం 5 MB. అనుమతి ఉన్న ఫోటోనే వాడండి.">Demo only: photo stays on this device, max 5 MB. Use a photo you have permission to share.</small>
+        <button type="submit" class="primary-button" data-en="Create my preview →" data-te="నా ప్రివ్యూ తయారు చేయి →">Create my preview →</button>
+        <p class="privacy-note" data-en="Your details are not uploaded or saved by this prototype." data-te="ఈ నమూనా మీ వివరాలను అప్‌లోడ్ చేయదు లేదా సేవ్ చేయదు.">Your details are not uploaded or saved by this prototype.</p>
+      </form>
+      <aside class="price-box"><p class="eyebrow" data-en="YOUR SELECTED DESIGN" data-te="మీరు ఎంచుకున్న డిజైన్">YOUR SELECTED DESIGN</p><h3 id="priceBoxName">Birthday Bloom</h3><div id="priceBoxPrice" class="big-price">₹99</div><p data-en="Example total for this template" data-te="ఈ టెంప్లేట్‌కు ఉదాహరణ మొత్తం">Example total for this template</p><ul><li data-en="Personalised message" data-te="మీ వ్యక్తిగత సందేశం">Personalised message</li><li data-en="Selected theme and animations" data-te="ఎంచుకున్న థీమ్, యానిమేషన్లు">Selected theme and animations</li><li data-en="Preview before finalising" data-te="ఫైనల్ చేసే ముందు ప్రివ్యూ">Preview before finalising</li></ul><div class="price-warning" data-en="No payment is taken here. Final prices and hosting details must be confirmed before launching." data-te="ఇక్కడ చెల్లింపు తీసుకోము. ప్రారంభించే ముందు ధరలు, హోస్టింగ్ వివరాలు నిర్ధారించాలి.">No payment is taken here. Final prices and hosting details must be confirmed before launching.</div></aside>
+    </div>
+  </section>
+
+  <section id="previewSection" class="section hidden">
+    <div class="section-heading split-heading"><div><p class="eyebrow" data-en="STEP 04" data-te="దశ 04">STEP 04</p><h2 data-en="Your gift preview" data-te="మీ గిఫ్ట్ ప్రివ్యూ">Your gift preview</h2><p data-en="Review it and go back to edit anything you like." data-te="చూసి, ఏదైనా మార్చాలంటే వెనక్కి వెళ్లండి.">Review it and go back to edit anything you like.</p></div><button class="text-button" id="editDetails">← <span data-en="Edit details" data-te="వివరాలు మార్చండి">Edit details</span></button></div>
+    <article id="giftCard" class="gift-card rose"><div class="flourish">✿　♡　✧</div><div id="previewPhotoWrap" class="photo-wrap hidden"><img id="previewPhoto" alt="Selected gift preview"></div><p id="previewKicker" class="eyebrow">A LITTLE NOTE FOR YOU</p><h2 id="previewTitle">A little note for you ♡</h2><h3 id="previewGreeting">Hey, someone special!</h3><div class="rule">♡</div><p id="previewMessage"></p><div id="previewMemoryWrap" class="memory hidden"><small>A FAVOURITE MEMORY</small><p id="previewMemory"></p></div><p class="signoff" id="previewSignoff">With love,<br><b>Someone who cares</b></p><div class="flourish">✧ · ♡ · ✿ · ♡ · ✧</div></article>
+    <div class="preview-footer"><p id="previewPriceLine">Selected template: ₹99 (example price)</p><button id="startAgain" class="secondary-button" data-en="Start a new gift" data-te="కొత్త గిఫ్ట్ ప్రారంభించండి">Start a new gift</button></div>
+    <div class="launch-note" data-en="This is a prototype preview, not a published shareable gift link. Saving, publishing and payments will be added in a later version." data-te="ఇది ప్రోటోటైప్ ప్రివ్యూ మాత్రమే; పబ్లిష్ చేసిన షేర్ చేయగల లింక్ కాదు. సేవ్, పబ్లిష్, చెల్లింపులు తర్వాతి వెర్షన్‌లో జోడిస్తాం.">This is a prototype preview, not a published shareable gift link. Saving, publishing and payments will be added in a later version.</div>
+  </section>
+
+  <section class="process section">
+    <p class="eyebrow" data-en="SIMPLE FROM START TO FINISH" data-te="ప్రారంభం నుంచి చివరి వరకు సులభం">SIMPLE FROM START TO FINISH</p><h2 data-en="How it works" data-te="ఇది ఎలా పనిచేస్తుంది">How it works</h2>
+    <div class="process-grid"><div><span>01</span><h3 data-en="Choose an occasion" data-te="సందర్భం ఎంచుకోండి">Choose an occasion</h3><p data-en="Birthday, apology, anniversary, and more." data-te="పుట్టినరోజు, క్షమాపణ, వార్షికోత్సవం ఇంకా ఎన్నో.">Birthday, apology, anniversary, and more.</p></div><div><span>02</span><h3 data-en="Pick a template" data-te="టెంప్లేట్ ఎంచుకోండి">Pick a template</h3><p data-en="Compare the designs and see the price first." data-te="డిజైన్లు పోల్చి ముందుగా ధర చూడండి.">Compare the designs and see the price first.</p></div><div><span>03</span><h3 data-en="Add your details" data-te="వివరాలు జోడించండి">Add your details</h3><p data-en="Write your message and add memories." data-te="సందేశం రాసి జ్ఞాపకాలు జోడించండి.">Write your message and add memories.</p></div><div><span>04</span><h3 data-en="Preview your gift" data-te="ప్రివ్యూ చూడండి">Preview your gift</h3><p data-en="Review the design before publishing." data-te="పబ్లిష్ చేసే ముందు డిజైన్ చూడండి.">Review the design before publishing.</p></div></div>
+  </section>
+</main><footer><b>Dear Little Things ♡</b><span data-en="Made for moments that matter." data-te="ముఖ్యమైన క్షణాల కోసం తయారు చేసింది.">Made for moments that matter.</span></footer>
+</body></html>
